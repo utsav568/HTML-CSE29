@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body><form><fieldset>
+  <br>
+  <legend>Fill Form</legend>
+  <div>
+     <label for="name">Name</label>
+    <input type="text" id="name"/>
+</div> <br><br>
+   <div> <label for="select">Class</label>
+    <select name="class" id="select">
+        <option value="class">cse 29</option>
+        <option >cse30</option>
+        <option>cse31</option>
+
+    </select>
+</div> <br><br>
+  <div>  <label for="email">Enter Email</label>
+    <input type="email" id="email" placeholder="enter email" name="email" required/></div> 
+    <br><br>
+   <div>
+    <label for="password">Password</label>
+    <input type="text" id="password" placeholder="enter password"/> 
+    </div> <br><br>
+       <div> <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea></div> 
+    <fieldset><br>
+        <legend>I am agree this form</legend>
+        <label><input type="radio" name="radio" value="yes"/>yes</label>
+        <label><input type="radio" name="radio" value="no"/>no</label>
+    </fieldset>
+    <br>
+    <label for="phone">Enter Number:</label>
+    <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required minlength="10" maxlength="11"/><br><br>
+    <label for="url">Enter Url</label>
+    <input type="url" name="url" id="url" required minlength="30" placeholder="www.https://.com" /><br><br>
+    <label id="appointment">Chose Time</label>
+    <input type="time" name="appointment" id="appointment" required minlength="9:00 am" maxlength="6:00 pm"/>
+    <smaLL>college hours are 9 am to 6 pm</smaLL>
+    <button>submit</button>
+
+
+
+
+</fieldset>
+
+
+
+</form>
+</body>
+</html>
